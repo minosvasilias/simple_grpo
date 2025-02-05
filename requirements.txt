@@ -1,0 +1,25 @@
+accelerate>=1.2.1
+bitsandbytes>=0.43.0
+black>=24.4.2
+datasets>=3.2.0
+deepspeed==0.15.4
+distilabel[vllm,ray,openai]>=1.5.2
+einops>=0.8.0
+flake8>=6.0.0
+hf_transfer>=0.1.4
+huggingface-hub[cli]>=0.19.2,<1.0
+isort>=5.12.0
+liger_kernel==0.5.2
+math-verify>=0.3.2
+packaging>=23.0
+parameterized>=0.9.0
+pytest
+safetensors>=0.3.3
+sentencepiece>=0.1.99
+torch>=2.5.1
+rapidfuzz
+peft
+transformers @ git+https://github.com/huggingface/transformers.git@main
+vllm==0.7.0
+wandb>=0.19.1
+# trl not listed; see setup.sh for installation of a custom branch.
